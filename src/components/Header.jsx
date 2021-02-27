@@ -120,6 +120,9 @@ class Header extends React.Component {
                   onChange={this.props.parentLanguageUpdateCallback}
                 >
                   <Select.OptGroup label={<Message id="languages" />}>
+                    <Select.Option value="bn-BD">
+                      বাংলা
+                    </Select.Option>
                     <Select.Option value="da-DA">
                       Danish
                     </Select.Option>
